@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+li.nav-item{
+  width: 50% !important;
+}
+.tabheading{
+  width: 50% !important;
+}
+button#home-tab{
+  width: 100% !important;
+  border-radius: 0px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: solid 2px;
+  height: 40px;
+}
+button#profile-tab{
+  width: 100% !important;
+  border-radius: 0px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: solid 2px;
+  height: 40px;
+}
+
+.nav-tabs {
+  border-color: none;
+  margin: 10px;
+  margin-top: 25px;
+}
+
+.all-promotions-box{
+  border: 2px solid #807474;
+  margin: 10px;
+  padding: 15px;
+}
+.all-promotions-box h4{
+  text-align: left;
+    font-size: 18px;
+    margin-bottom: 3px;
+  
+}
+
+.all-promotions-box p{
+font-size: 10px;
+margin-bottom: -10px;
+text-align: left;
+color: #808080;
+}
+
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+  color: var(--bs-btn-active-color);
+  color: #808080;
+  background-color: #dee2e6;
+  border-color: var(--bs-btn-active-border-color);
+  height: 40px;
+}
+
+.btn:first-child:hover, :not(.btn-check)+.btn:hover {
+  color: #808080;
+  background-color: #dee2e6;
+  border-color: var(--bs-btn-active-border-color);
+  height: 40px;
+}
+
+.tab-buttons{
+  background-color: #fff;
+  color: #808080;  
+  font-weight: bold;  
+  font-size: 12px;
+}
+
+.new-customer-box{
+  margin: 20px;
+}
+
+.card{
+  border: none;
+  background-color: #f5f5f5;
+  margin-bottom: 20px;
+
+}
+p.card-text {
+  text-align: left;
+  font-size: 13px;
+  color: gray;
+}
+.button-term-condition{
+  float: left;
+}
+.button-join-now{
+  float: right;
+  padding-left: 35px;
+  padding-right: 35px;
+
+}
+.new-customer-box h1{
+ color: #808080;
+}
+ul#myTab {
+  border: none;
+}
+
+
